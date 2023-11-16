@@ -11,9 +11,6 @@ import org.springframework.stereotype.Component;
 public class AnimalsCage {
     private Timer timer;
 
-//    public Timer getTimer() {
-//        return timer;
-//    }
 
     @Autowired
     public void setTimer(Timer timer) {
