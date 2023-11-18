@@ -17,6 +17,9 @@ public class AnimalsCage {
         this.timer = timer;
     }
 
+    public Timer getTimer() {
+        return timer;
+    }
 
     @Autowired
     @Qualifier("Dog")
